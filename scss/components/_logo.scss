@@ -1,0 +1,38 @@
+/* Logo */
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-family: 'Raleway';
+}
+
+.logo--black {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: $colorLogoPrimery;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 26px;
+  margin-bottom: 26px;
+  }
+}
+
+.logo--white {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  color: $colorLogoSecondary;
+
+  @media screen and (min-width: 1200px) {
+    justify-content: flex-start;
+  }
+
+}
+
+.logo__slogan {
+  color: $colorLogoAccent;
+}

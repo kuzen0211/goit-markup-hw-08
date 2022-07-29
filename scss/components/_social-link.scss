@@ -1,0 +1,70 @@
+/* Social network */
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__inner {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  margin: 0px 32px 30px 32px;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.social__item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:last-child) {
+  margin-right: 10px;
+}
+
+// @media screeen and (max-width: 767px) {
+//   margin-bottom: 20px;
+// }
+ 
+}
+
+.social__link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  fill: $colorIcon;
+  background-color: transparent;
+  border-radius: 50%;
+  list-style: none;
+  transition: fill $transition, background-color $transition;
+
+  &:hover,
+  &:focus {
+  fill: $colorSecondaryIcon;
+  background-color: $colorAccent;
+}
+}
+
+.social__link--color {
+  background-color: $bgColorSocial;
+  transition: background-color $transition;
+}
+
+.social__icon {
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.social__icon--color {
+  height: 20px;
+  width: 20px;
+  fill: $bgColorPrimery;
+}
+
+
+
