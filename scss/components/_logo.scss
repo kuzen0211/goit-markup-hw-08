@@ -15,8 +15,8 @@
   color: $colorLogoPrimery;
 
   @media screen and (min-width: 768px) {
-    margin-top: 26px;
-  margin-bottom: 26px;
+    margin: 0;
+    align-items: center;
   }
 }
 

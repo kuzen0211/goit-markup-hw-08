@@ -2,12 +2,25 @@
 
 .auth {
   display: flex;
-  // margin-left: auto;
 
   @media screen and (max-width: 767px) {
     margin-top: auto;
     margin-bottom: 64px;
     flex-direction: column-reverse;
+  }
+
+  @media screen and (min-width: 768px) {
+    
+    flex-direction: column;
+  justify-content: start;
+  }
+
+  @media screen and (min-width: 1200px) {
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
   }
   }
 
@@ -17,11 +30,20 @@
         margin-bottom: 32px;
       }
     }
-  }
 
-// .auth__item:not(:last-child) {
-//   margin-right: 50px;
-// }
+    @media screen and (max-width: 1199px) {
+      &:not(:last-child) {
+      margin-bottom: 10px;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+  margin-right: 30px;
+  }
+  }
+}
+
 
 
 
@@ -61,6 +83,16 @@
   &:hover,
   &:focus {
   color: $colorAccent;
+  }
+
+  @media screen and (min-width: 768px) {
+    justify-content: flex-start;
+    font-size: 12px;
+line-height: 1.16;
+  }
+
+   @media screen and (min-width: 1200px) {
+    align-items: center;
   }
 }
 

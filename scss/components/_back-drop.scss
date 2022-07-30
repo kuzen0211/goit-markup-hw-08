@@ -1,17 +1,18 @@
 /* Hero backdrop & modal */
 
-.backdrop {
+.backdrop.is-hidden {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
-
+  z-index: 99;
   min-height: 100%;
   width: 100%;
+  pointer-events: none;
 
   background-color: $bgColorBackdrop;
   transition: $transition;
 }
+
 
 .modal {
   position: absolute;
@@ -29,6 +30,7 @@
 .modal__container {
   position: relative;
   display: block;
+  z-index: 999;
 
 }
 

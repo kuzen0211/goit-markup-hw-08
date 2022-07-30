@@ -10,35 +10,101 @@
 
   <body>
     <!-- Header -->
-    <header class="header">
-        <div class="container">
-          <nav class="nav">
-          <a class="logo logo--black" href="index.html" ><span class="logo__slogan">Web</span>Studio</a>
-          <ul class="nav__list">
-          <li class="nav__item"><a class="nav__link" href="./index.html">Студія</a></li>
-          <li class="nav__item"><a class="nav__link nav__link--current" href="./portfolio.html">Портфоліо</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Контакти</a></li>
-        </ul>
+    <header class="page-header">
+      <div class="container container-header">
+        <a class="logo logo--black" href="index.html" ><span class="logo__slogan">Web</span>Studio</a>
+          <div class="nav-auth">
+            <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="./index.html">Студія</a></li>
+                    <li class="nav__item"><a class="nav__link nav__link--current" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Контакти</a></li>
+                  </ul>
+                </nav>
         
-        <ul class="auth">
-        <li class="auth__item">
-          <a class="auth__link" href="mailto:info@devstudio.com">
-          <svg class="auth__icon">
-            <use href="./images/symbol-defs.svg#icon-mail"></use>
-          </svg>
-          info@devstudio.com</a>
-        </li>
+                <ul class="auth">
+                  <li class="auth__item">
+                    <a class="auth__link" href="mailto:info@devstudio.com">
+                      <svg class="auth__icon">
+                        <use href="./images/symbol-defs.svg#icon-mail"></use>
+                      </svg>
+                        info@devstudio.com</a>
+                  </li>
 
-        <li class="auth__item">
-          <a class="auth__link" href="tel:+380961111111">
-          <svg class="auth__icon">
-            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
-          </svg>
-          +38 096 111 11 11</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+                  <li class="auth__item">
+                    <a class="auth__link" href="tel:+380961111111">
+                      <svg class="auth__icon">
+                        <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                      </svg>
+                      +38 096 111 11 11</a>
+                  </li>
+                </ul>
+          </div>
+        
+        <div class="menu" id="menu-container">
+
+            <button class="menu__btn-open" type="button" aria-expanded="false" aria-controls="menu-container" aria-label="mobile menu" data-mobile-menu-open>
+              <svg class="menu__icon-open">
+                <use href="./images/symbol-defs.svg#icon-burger"></use>
+              </svg>
+            </button>
+
+            <div class="menu__modal is-hidden" data-mobile-menu>
+
+                
+                  <button class="menu__btn-close" type="button" aria-label="button close" data-mobile-menu-close>
+                    <svg class="menu__icon-close">
+                <use href="./images/symbol-defs.svg#icon-close"></use>
+              </svg>
+                  </button>
+
+                <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="./index.html">Студія</a></li>
+                    <li class="nav__item"><a class="nav__link nav__link--current" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Контакти</a></li>
+                  </ul>
+                </nav>
+        
+                <ul class="auth">
+                  <li class="auth__item">
+                    <a class="auth__link" href="mailto:info@devstudio.com">
+                      <svg class="auth__icon">
+                        <use href="./images/symbol-defs.svg#icon-mail"></use>
+                      </svg>
+                        info@devstudio.com</a>
+                  </li>
+
+                  <li class="auth__item">
+                    <a class="auth__link auth__link--color" href="tel:+380961111111">
+                      <svg class="auth__icon">
+                        <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                      </svg>
+                      +38 096 111 11 11</a>
+                  </li>
+                </ul>
+
+                <ul class="social-mobile">
+                  <li class="social-mobile__item">
+                    <a class="social-mobile__link" href="#">Instagram</a>
+                  </li>
+
+                  <li class="social-mobile__item">
+                    <a class="social-mobile__link" href="#">Twitter</a>
+                  </li>
+
+                  <li class="social-mobile__item">
+                    <a class="social-mobile__link" href="#">Facebook</a>
+                  </li>
+
+                  <li class="social-mobile__item">
+                    <a class="social-mobile__link" href="#">Linkedlin</a>
+                  </li>
+                </ul>
+              </div>
+          
+          </div>
+        </div>
 </header>
 
     <!-- Main -->
@@ -361,5 +427,7 @@
     </div>
   </div>
 </footer>
+<script src="./js/mobile-menu.js"></script>
+<script src="./js/header.js"></script>
   </body>
 </html>

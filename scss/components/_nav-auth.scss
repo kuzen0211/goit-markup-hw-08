@@ -1,0 +1,15 @@
+.nav-auth {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-height: 80px;
+        margin-left: 87px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 93px;
+    }
+    
+}
