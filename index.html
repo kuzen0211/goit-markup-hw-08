@@ -239,17 +239,30 @@
           <h2 class="title">Чим ми займаємося</h2>
           <ul class="work__list">
             <li class="work__item">
-              <img src="images/box1.jpg" alt="написання коду" width="370" height="294" />
+              <picture>
+                <source srcset="./images/1600/1work1600.jpg 1x,./images/1600/1work1600@2x.jpg 2x" type="image/jpg">
+              <img src="./images/1600/1work1600.jpg" alt="написання коду" width="370" height="294" />
+              </picture>
               <p class="work__text">Десктопні додатки</p>
             </li>
 
             <li class="work__item">
-              <img src="images/box2.jpg" alt="мобільний додаток" width="370" height="294" />
+              <picture>
+              <source srcset="./images/1600/2work1600.jpg 1x,./images/1600/2work1600@2x.jpg 2x" type="image/jpg">
+
+            <img src="./images/1600/2work1600.jpg" alt="мобільний додаток" width="370" height="294" />
+
+              </picture>
               <p class="work__text">Мобільні додатки</p>
             </li>
 
             <li class="work__item">
-              <img src="images/box3.jpg" alt="розробка дизайну" width="370" height="294" />
+              <picture>
+              <source srcset="./images/1600/3work1600.jpg 1x,./images/1600/3work1600@2x.jpg 2x" type="image/jpg">
+
+              <img src="./images/1600/3work1600.jpg" alt="розробка дизайну" width="370" height="294" />
+
+              </picture>
               <p class="work__text">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -265,7 +278,12 @@
 
           <!-- People 1 -->
           <li class="people__item">
-            <img class="people__img" src="images/team1.jpg" alt="чоловік"  />
+            <picture>
+              <source srcset="./images/1600/1card1600.jpg 1x, ./images/1600/1card1600@2x.jpg 2x" type="image/jpg" media="(min-width: 1200px)">
+              <source srcset="./images/768/1card768.jpg 1x, ./images/768/1card768@2x.jpg 2x" type="image/jpg" media="(min-width: 768px">
+              <source srcset="./images/450/1card450.jpg 1x, ./images/450/1card450@2x.jpg 2x" type="image/jpg" media="(max-width: 767px)">
+              <img class="people__img"  src="./images/450/1card450.jpg" alt="чоловік"/>
+            </picture>
             <div class="people__inner">
               <h3 class="people__name">Ігор Демяненко</h3>
               <p class="people__position">Product Designer</p>
@@ -311,7 +329,13 @@
 
           <!-- People 2 -->
           <li class="people__item">
-            <img src="images/team2.jpg" alt="жінка"  />
+            <picture>
+              <source srcset="./images/1600/2card1600.jpg 1x, ./images/1600/2card1600@2x.jpg 2x" type="image/jpg" media="(min-width: 1200px)">
+              <source srcset="./images/768/2card768.jpg 1x, ./images/768/2card768@2x.jpg 2x" type="image/jpg" media="(min-width: 768px">
+              <source srcset="./images/450/2card450.jpg 1x, ./images/450/2card450@2x.jpg 2x" type="image/jpg" media="(max-width: 767px)">
+              <img src="./images/450/2card450.jpg" alt="жінка"/>
+            </picture>
+            
             <div class="people__inner">
               <h3 class="people__name">Ольга Репіна</h3>
               <p class="people__position">Frontend Developer</p>
@@ -357,7 +381,12 @@
 
           <!-- People 3 -->
           <li class="people__item">
-            <img src="images/team3.jpg" alt="чоловік"/>
+            <picture>
+              <source srcset="./images/1600/3card1600.jpg 1x, ./images/1600/3card1600@2x.jpg 2x" type="image/jpg" media="(min-width: 1200px)">
+              <source srcset="./images/768/3card768.jpg 1x, ./images/768/3card768@2x.jpg 2x" type="image/jpg" media="(min-width: 768px">
+              <source srcset="./images/450/3card450.jpg 1x, ./images/450/3card450@2x.jpg 2x" type="image/jpg" media="(max-width: 767px)">
+              <img src="./images/450/3card450.jpg" alt="чоловік"/>
+            </picture>
             <div class="people__inner">
               <h3 class="people__name">Микола Тарасов</h3>
               <p class="people__position">Marketing</p>
@@ -403,7 +432,13 @@
 
           <!-- People 4 -->
           <li class="people__item">
-            <img src="images/team4.jpg" alt="чоловік" />
+            <picture>
+              <source srcset="./images/1600/4card1600.jpg 1x, ./images/1600/4card1600@2x.jpg 2x" type="image/jpg" media="(min-width: 1200px)">
+              <source srcset="./images/768/4card768.jpg 1x, ./images/768/4card768@2x.jpg 2x" type="image/jpg" media="(min-width: 768px">
+              <source srcset="./images/450/4card450.jpg 1x, ./images/450/4card450@2x.jpg 2x" type="image/jpg" media="(max-width: 767px)">
+              <img src="./images/450/4card450.jpg" alt="чоловік" />
+            </picture>
+            
             <div class="people__inner">
               <h3 class="people__name">Михайло Єрмаков</h3>
               <p class="people__position">UI Designer</p>
