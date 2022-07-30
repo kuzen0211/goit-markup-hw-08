@@ -8,7 +8,7 @@
 
   background-color: $bgColorImg;
   background-image: linear-gradient(to top, $colorLineGradient, $colorLineGradient),
-    url('./images/450/hero480.jpg');
+    url('../images/450/hero480.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,28 +17,31 @@
     max-width: 480px; 
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
     background-image: linear-gradient(to top, $colorLineGradient, $colorLineGradient),
-    url('./images/450/hero480@2x.jpg');
+    url('../images/450/hero480@2x.jpg');
   }
+
 
   @media screen and (min-width: 768px) {
     max-width: 768px; 
     background-image: linear-gradient(to top, $colorLineGradient, $colorLineGradient),
-    url('./images/768/hero768.jpg');
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    url('../images/768/hero768.jpg');
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
     background-image: linear-gradient(to top, $colorLineGradient, $colorLineGradient),
-    url('./images/768/hero768@2x.jpg');
+    url('../images/768/hero768@2x.jpg');
   }
 }
+
 
   @media screen and (min-width: 1200px) {
     max-width: 1600px;
     background-image: linear-gradient(to top, $colorLineGradient, $colorLineGradient),
-    url('./images/1600/hero1600.jpg');
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    url('../images/1600/hero1600.jpg');
+    @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
     background-image: linear-gradient(to top, $colorLineGradient, $colorLineGradient),
-    url('./images/1600/hero1600@2x.jpg');
+    url('../images/1600/hero1600@2x.jpg');
   }
   }
 }
