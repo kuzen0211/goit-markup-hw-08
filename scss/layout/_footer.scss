@@ -10,17 +10,14 @@
 
     @media screen and (min-width: 480px) {
     max-width: 480px;
-    
   }
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
-   
   }
 
   @media screen and (min-width: 1200px) {
     max-width: 1600px;
-  
   }
 }
 
@@ -41,20 +38,20 @@
 
 
 .container-footer {
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   }
-
-   @media screen and (min-width: 1200px) {
-    display: flex;
-    justify-content: space-around;
-   }
   }
 
-  .container-contact {
-    justify-content: flex-start;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-around;
+  }
+  }
+
+.container-contact {
+  justify-content: flex-start;
   }
 
 
@@ -134,14 +131,11 @@
 
   @media screen and (min-width: 1200px) {
     display: inline-block;
-
-  
   }
 }
 
 .subscription__input {
-margin-bottom: 20px;
-
+  margin-bottom: 20px;
   flex-basis: 100%;
   max-width: 450px;
   height: 50px;
@@ -163,12 +157,10 @@ margin-bottom: 20px;
   border: 1px solid $colorBorderSub;
 }
 
-@media screen and (min-width: 1200px) {
-  display: inline-flex;
+  @media screen and (min-width: 1200px) {
+    display: inline-flex;
     margin-right: 12px;
     width: 358px;
-  
-
 }
 }
 

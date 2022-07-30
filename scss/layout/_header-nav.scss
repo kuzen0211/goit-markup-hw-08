@@ -1,4 +1,5 @@
 /* Header navigation */
+
 .page-header {
   border-bottom: 1px solid $colorBorderHeader;
 }
@@ -12,7 +13,6 @@
 }
 
 .nav {
-
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
@@ -22,22 +22,18 @@
   @media screen and (min-width: 1200px) {
     margin-right: 315px;
   }
-
-
 }
 
 .nav__list {
   @media screen and (min-width: 768px) {
     display: flex;
-  align-items: center;
-  height: 100%;
+    align-items: center;
+    height: 100%;
   }
-  
 }
 
 
 .nav__item {
-
   padding-top: 16px;
   padding-bottom: 16px;
 
@@ -45,68 +41,59 @@
     padding: 0;
 
     &:not(:last-child) {
-  margin-right: 50px;
+      margin-right: 50px;
 }
-  }
+}
 
   @media screen and (min-width: 1200px) {
     padding: 0;
 
     &:not(:last-child) {
-  margin-right: 53px;
+      margin-right: 53px;
 }
-  }
-
-
+}
 }
 
 .nav__link {
-  
   height: 100%;
-position: relative;
+  position: relative;
   color: $colorPrimeryText;
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   
-
-
   transition: color $transition;
   text-decoration: none;
 
   &:hover,
   &:focus {
-  color: $colorAccent;
-}
+    color: $colorAccent;
+  }
 
-@media screen and (min-width: 768px) {
-  font-size: 14px;
-  line-height: 1.14;
-  display: flex;
-  padding: 32px 0px;
-}
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.14;
+    display: flex;
+    padding: 32px 0px;
+  }
 }
 
 .nav__link--current {
   color: $colorAccent;
 
-
   &::after {
-  content: '';
-  width: 100%;
-  height: 4px;
-  background-color: $colorAccent;
-  border-radius: 2px;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: $colorAccent;
+    border-radius: 2px;
 
-  @media screen and (min-width: 768px) {
-  position: absolute;
-  bottom: 0;
-  
-}
-}
-
-
+    @media screen and (min-width: 768px) {
+      position: absolute;
+      bottom: 0;
+    }
+  }
 }
 
 

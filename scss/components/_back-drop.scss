@@ -22,23 +22,17 @@
   padding: 40px;
   
   background-color: $bgColorModal;
-
 }
-
-
 
 .modal__container {
   position: relative;
   display: block;
-  
-
 }
 
 .modal__close {
   display: flex;
   align-items: center;
   justify-content: center;
-
   position: absolute;
   top: -32px;
   right: -32px;

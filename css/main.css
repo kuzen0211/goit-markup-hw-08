@@ -1226,7 +1226,7 @@ address {
   fill: #2196f3;
 }
 
-/* Work */
+/* Portfolio*/
 .card {
   display: flex;
   flex-wrap: wrap;
@@ -1268,7 +1268,7 @@ address {
 }
 @media screen and (max-width: 767px) {
   .card__img {
-    width: 450px;
+    width: 100%;
   }
 }
 

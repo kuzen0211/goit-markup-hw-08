@@ -1,4 +1,4 @@
-/* Work */
+/* Portfolio*/
 
 .card {
   display: flex;
@@ -12,7 +12,6 @@
   box-sizing: border-box;
   transition: box-shadow $transition;
 
-  
   &:hover,
   &:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -39,9 +38,8 @@
 .card__img {
   display: block;
   
-
   @media screen and (max-width: 767px) {
-    width: 450px;
+    width: 100%;
   }
 }
 

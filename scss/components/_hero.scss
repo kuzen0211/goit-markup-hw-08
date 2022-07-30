@@ -6,7 +6,6 @@
   text-align: center;
   width: 100%;
 
-
   background-color: $bgColorImg;
   background-image: linear-gradient(to top, $colorLineGradient, $colorLineGradient),
     url('/images/450/hero480.jpg');
@@ -22,8 +21,6 @@
     background-image: linear-gradient(to top, $colorLineGradient, $colorLineGradient),
     url('/images/450/hero480@2x.jpg');
   }
-
-  
 
   @media screen and (min-width: 768px) {
     max-width: 768px; 
@@ -57,13 +54,9 @@
   align-items: center;
   flex-direction: column;
   padding-top: 118px;
-    padding-bottom: 118px;
+  padding-bottom: 118px;
   
-
-    
-
-   @media screen and (min-width: 1200px) {
-  
+  @media screen and (min-width: 1200px) {
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -72,22 +65,14 @@
 .hero__title {
   color: $colorTitle;
   margin-bottom: 30px;
- 
-
-font-weight: 900;
-font-size: 26px;
-line-height: 1.61;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
   @media screen and (min-width: 1200px) {
-    
-
-  font-size: 44px;
-  line-height: 1.36;
-
+    font-size: 44px;
+    line-height: 1.36;
   }
-  
 }
