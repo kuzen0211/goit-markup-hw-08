@@ -714,6 +714,14 @@ address {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .container-header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
 .section {
   margin: 0 auto;
   padding-top: 60px;
@@ -825,14 +833,6 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .container-header {
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-  }
-}
-
-@media screen and (min-width: 768px) {
   .nav {
     display: flex;
     align-items: center;
@@ -841,7 +841,7 @@ address {
 }
 @media screen and (min-width: 1200px) {
   .nav {
-    margin-right: 315px;
+    margin-right: 300px;
   }
 }
 

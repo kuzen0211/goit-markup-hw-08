@@ -18,6 +18,14 @@
   }
 }
 
+.container-header {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
 
 .section {
   margin: 0 auto;

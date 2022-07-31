@@ -4,14 +4,6 @@
   border-bottom: 1px solid $colorBorderHeader;
 }
 
-.container-header {
-  @media screen and (min-width: 768px) {
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-  }
-}
-
 .nav {
   @media screen and (min-width: 768px) {
     display: flex;
@@ -20,7 +12,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    margin-right: 315px;
+    margin-right: 300px;
   }
 }
 
