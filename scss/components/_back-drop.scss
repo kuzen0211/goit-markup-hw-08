@@ -1,18 +1,20 @@
 /* Hero backdrop & modal */
 
-.backdrop.is-hidden {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 2;
   min-height: 100%;
   width: 100%;
-  pointer-events: none;
 
   background-color: $bgColorBackdrop;
   transition: $transition;
 }
 
+.backdrop.is-hidden {
+  pointer-events: none;
+}
 
 .modal {
   position: absolute;
